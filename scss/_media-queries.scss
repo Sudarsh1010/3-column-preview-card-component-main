@@ -1,0 +1,25 @@
+@media screen and (min-width: 1110px) {
+  .container {
+    padding: 7.5rem;
+
+    #desktop {
+      max-width: 900px;
+      max-height: 475px;
+    }
+
+    .cards {
+      grid-template-columns: 1fr 1fr 1fr;
+      max-width: 900px;
+
+      .card {
+        max-width: 300px;
+
+        .content {
+          .description {
+            padding-bottom: 4rem;
+          }
+        }
+      }
+    }
+  }
+}

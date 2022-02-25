@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+@import "./variables";
+@import "./card";
+@import "./resets";
+@import "./media-queries";
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5rem 1.5rem;
+
+  .cards {
+    border-radius: 0.5rem;
+    overflow: hidden;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    max-width: 325px;
+  }
+}

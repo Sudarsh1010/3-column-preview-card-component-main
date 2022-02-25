@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+.card {
+  padding: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card img {
+  width: 64px;
+}
+
+.card .content .title {
+  font-family: "Big Shoulders Display", cursive;
+  font-weight: 700;
+  padding: 1.25rem 0;
+}
+
+.card .content .description {
+  line-height: 1.5rem;
+}
+
+.card .btn {
+  background: #f2f2f2;
+  width: 10rem;
+  padding: 1rem 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 2rem;
+  margin-top: 1.5rem;
+  border: 1px solid #f2f2f2;
+}
+
+.card .btn-1 {
+  color: #e38826;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.card .btn-1:hover {
+  background: #e38826;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+
+.card .btn-2 {
+  color: #006970;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.card .btn-2:hover {
+  background: #006970;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+
+.card .btn-3 {
+  color: #004241;
+  -webkit-transition: 0.25s;
+  transition: 0.25s;
+}
+
+.card .btn-3:hover {
+  background: #004241;
+  color: #f2f2f2;
+  cursor: pointer;
+}
+
+.card-1 {
+  background: #e38826;
+}
+
+.card-2 {
+  background: #006970;
+}
+
+.card-3 {
+  background: #004241;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Big Shoulders Display", cursive;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 15px;
+}
+
+h1 {
+  color: #f2f2f2;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+@media screen and (min-width: 1110px) {
+  .container {
+    padding: 7.5rem;
+  }
+  .container #desktop {
+    max-width: 900px;
+    max-height: 475px;
+  }
+  .container .cards {
+    -ms-grid-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr;
+    max-width: 900px;
+  }
+  .container .cards .card {
+    max-width: 300px;
+  }
+  .container .cards .card .content .description {
+    padding-bottom: 4rem;
+  }
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 5rem 1.5rem;
+}
+
+.container .cards {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+  max-width: 325px;
+}
+/*# sourceMappingURL=main.css.map */
